@@ -1,4 +1,4 @@
-<footer>
+<footer id="site-footer">
      &copy:Ugyen Chheda Lama
 </footer>
 

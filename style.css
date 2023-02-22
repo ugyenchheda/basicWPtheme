@@ -49,8 +49,77 @@ Theme author: Ugyen Chheda Lama
     background-color: #33cc33;
     
 }
-#side-header {
+#site-header {
     background: url('banner.jpg');
     text-align: center;
     border: solid 2px #336600;
+    border-top: 0px;
+    padding: 30px;
+    background-size: cover;
+}
+
+#site-header h1 {
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    font-size: 3.5em;
+    margin: 0px;
+}
+#content main a {
+    text-decoration: none;
+    color: #33cc33;
+    font-weight: bold;
+}
+#content main h1 a, #content main h2 {
+    color: #000000;
+}
+#content main h1 a, #content main h2 a {
+    color: #000000;
+}
+#content main .date-category {
+    color: #808080;
+    margin-top: 0px;
+}
+#content main article {
+    border-bottom: 2px dashed #808080;
+    margin-bottom: 10px;
+}
+#content main article:last-child {
+    border: none;
+}
+#content main {
+    width: 70%;
+    padding: 15px;
+}
+#content {
+    border-right: solid 2px solid 3336600;
+    border-right: solid 2px solid 3336600;
+    display: flex;
+}
+
+#sidebar {
+    width: 30%;
+}
+
+#content #sidebar h2 {
+    background-color: #33cc33;
+    color: #336600;
+    padding: 10px;
+    font-size: 1.25em;
+
+}
+
+#content #sidebar > div:first-child > h2, #content #sidebar > div:first-child > h2 {
+    margin-top: 5px;
+
+}
+#content #sidebar a{
+    color: #33cc33;
+    text-decoration: none;
+
+}
+#site-footer {
+    text-align: center;
+    background-color:#33cc33;
+    border: 2px solid #336600;
+    padding: 10px;
 }
