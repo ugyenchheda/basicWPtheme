@@ -1,0 +1,54 @@
+/* 
+Theme name: Ugyen 
+Theme author: Ugyen Chheda Lama
+*/
+#site-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#top-navi {
+    background-color: #33cc33;
+    border: 2px solid #336600;
+}
+#top-navi ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#top-navi ul li {
+    position: relative;
+}
+#top-navi ul li a{
+    text-decoration: none;
+    color: #336600;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+}
+#top-navi .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    padding-top: 2px;
+    display: none;
+}
+#top-navi ul li:hover .sub-menu {
+    display: block;
+}
+#top-navi .sub-menu li {
+    white-space: nowrap;
+    width: 100%;
+}
+#top-navi .sub-menu li a {
+    background-color: #33cc33;
+    
+}
+#side-header {
+    background: url('');
+}
