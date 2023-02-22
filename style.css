@@ -50,5 +50,7 @@ Theme author: Ugyen Chheda Lama
     
 }
 #side-header {
-    background: url('');
+    background: url('banner.jpg');
+    text-align: center;
+    border: solid 2px #336600;
 }
