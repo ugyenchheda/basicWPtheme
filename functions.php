@@ -3,6 +3,7 @@ register_nav_menus(['primary' => 'Primary menu']);
 
 function ugyenportfolio_assets(){
     wp_enqueue_style('style', get_stylesheet_uri());
+    wp_enqueue_script('ugyenportfolio-script', get_template_directory_uri().'/js/ugyenportfolio.js', array('jquery'), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'ugyenportfolio_assets');
 

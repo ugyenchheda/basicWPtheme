@@ -51,6 +51,9 @@ Theme author: Ugyen Chheda Lama
 #top-navi ul li.current-menu-item > a, #top-navi ul .current-menu-parent > a, #top-navi ul .current-post-ancestor > a {
     background: #a6e468;
 }
+#top-navi > div > ul > li:first-child {
+    display: none;
+} 
 #top-navi .sub-menu li a {
     background-color: #33cc33;  
 }
@@ -158,4 +161,46 @@ Theme author: Ugyen Chheda Lama
     background-color:#33cc33;
     border: 2px solid #336600;
     padding: 10px;
+}
+
+@media only screen and (max-width: 950px) {
+    #content #news-box {
+        display: block;
+    }
+    #content #news-box .news {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 650px){
+    #content {
+        display: block;
+    }
+    #content main, #content #sidebar {
+        width: 100%;
+    }
+    #top-navi ul {
+        display: block;
+    }
+    #top-navi .sub-menu {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 0.8em;
+    }
+    #top-navi > div > ul > li:first-child {
+        display: block;
+    } 
+    #top-navi > div > ul > li:not(:first-child) {
+        display: none;
+    } 
+}
+@media only screen and (max-width: 450px){
+    #content #activity-box {
+        display: block;
+    }
+    #content #activity-box section {
+        width: 100%;
+        padding-right: 0;
+    }
 }
