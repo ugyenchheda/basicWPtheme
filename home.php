@@ -1,15 +1,15 @@
 <?php
-get_header(); ?>
+//get_header(); ?>
 <div id="content">
     <main>
         <div id='news-box'>
     <?php
     $the_query = new WP_Query(array(
-        'category_name' => 'first-category',
-        'orderby' => 'date',
-        'order' => 'desc',
-        'posts_per_page' => '3'
-    ));
+            'author_name' => 'ugyen', 
+            'category_name' => 'blog', 
+            'tag' => 'IT', 
+            'post_type' => 'page'
+            ) );
     if ($the_query->have_posts()) :
         while( $the_query->have_posts() ) : $the_query->the_post(); ?>
         <div class="news">
