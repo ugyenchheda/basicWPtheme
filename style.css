@@ -52,8 +52,12 @@ Theme author: Ugyen Chheda Lama
     background: #a6e468;
 }
 #top-navi .sub-menu li a {
-    background-color: #33cc33;
-    
+    background-color: #33cc33;  
+}
+#top-navi ul li a:hover {
+    background: #29fb7d;
+    color: #308530;
+    transition: ease all .5s;
 }
 #site-header {
     background: url('banner.jpg');
@@ -128,7 +132,10 @@ Theme author: Ugyen Chheda Lama
 #content #sidebar {
     width: 30%;
 }
-
+#content #sidebar div ul li {
+    padding-left: 0px;
+    color: #33cc00;
+}
 #content #sidebar h2 {
     background-color: #33cc33;
     color: #336600;

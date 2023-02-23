@@ -29,4 +29,7 @@ function ugyenportfolio_read_more($more){
     return '<a href="'.get_permalink($post->ID).'">More &raquo;</a>';
 }
 add_filter('excerpt_more', 'ugyenportfolio_read_more');
+
+add_theme_support( 'post-thumbnails' );
+add_image_size( 'thmbsiz', 250, 150 );
 ?>
