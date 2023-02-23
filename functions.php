@@ -18,4 +18,15 @@ function ugyenportfolio_widgets_init() {
     ));
 }
 add_action('widgets_init','ugyenportfolio_widgets_init');
+
+function ugyenportfolio_theme_setup(){
+    add_theme_support('title-tag');
+}
+add_action('after_setup_theme','ugyenportfolio_theme_setup');
+
+function ugyenportfolio_read_more($more){
+    global $post;
+    return '<a href="'.get_permalink($post->ID).'">More &raquo;</a>';
+}
+add_filter('excerpt_more', 'ugyenportfolio_read_more');
 ?>

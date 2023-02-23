@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes();?>>
     <head>
-        <title><?php bloginfo('name');?></title>
+       
         <meta charset="<?php bloginfo('charset');?>">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?php wp_head();?>
 </head>
-<body>
+<body <?php body_class();?>>
 <div id="site-container">
     <nav id="top-navi">
         <?php $args =['theme_location' => 'primary']; wp_nav_menu($args); ?></nav>
