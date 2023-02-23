@@ -11,7 +11,7 @@
     <nav id="top-navi">
         <?php $args =['theme_location' => 'primary']; wp_nav_menu($args); ?></nav>
     <header id="site-header">
-        <h1><?php bloginfo('name');?> tero bau</h1>
+        <h1><?php bloginfo('name');?></h1>
     </header>
     
 
